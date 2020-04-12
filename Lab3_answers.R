@@ -1,9 +1,7 @@
-# APOSTOLAKI ELEFTHERIA
-
 # Question 1
 # Loaded from my local file - please change the path with your local path 
   
-  Drugs <- read.table("/Users/eleftheriaapostolaki/Desktop/Drugs.txt", 
+  Drugs <- read.table("/Users/XXXX/Desktop/Drugs.txt", 
                     header = TRUE,
                     sep = ",",
                     stringsAsFactors = FALSE)
