@@ -7,7 +7,8 @@ R has several built-in datasets. To see a list of these, with a title (short des
 In this assignment we will work with the dataset mtcars. The dataset can be loaded with data(mtcars) and can be viewed through the data viewer with fix(mtcars).
 To get a short description of the dataset and the variables in it, type ?mtcars. Once the dataset is loaded, you can extract each variable and assign it to a new object by means of the $ operator, as in:
 
-Assign variable mpg of mtcars to X
+Assign variable mpg of mtcars to X:
+
 X <- mtcars$mpg
 
 Tasks: 
