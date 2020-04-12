@@ -41,12 +41,12 @@ each countries in the specific year. The variables in the dataset are:
 
 Variable name - Description
 
-a. LOCATION - Country code
-b. TIME - Date (Year)
-c. PC_HEALTHXP - % of Health spending that is spent on pharmaceutical drugs
-d. PC_GDP - % of GDP
-e. USD_CAP - in USD per capita (using economy-wide PPPs)
-f. TOTAL_SPEND - Total spending in millions USD
+1. LOCATION - Country code
+2. TIME - Date (Year)
+3. PC_HEALTHXP - % of Health spending that is spent on pharmaceutical drugs
+4. PC_GDP - % of GDP
+5. USD_CAP - in USD per capita (using economy-wide PPPs)
+6. TOTAL_SPEND - Total spending in millions USD
 
 Questions
 1. Load the data in an object named Drugs. You will notice there is an additional variable called FLAG_CODES. Remove this variable from the dataset.
