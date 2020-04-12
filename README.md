@@ -25,7 +25,7 @@ Tasks:
 
 Introduction:
 
-This assignment is to be done on an individual basis. The scoring will be 0-10, and it will have a wight of 40% of the overall R Labs grade (which counts for 10% of the overall course grade). The data to be used for this assignment can be found in the Toilets_AUS.csv. It includes data published by the Australian government's department of health on details of public and private toilet facilities across the country. A selection of the variables (but all the toilets) is included in the dataset. The full dataset can be accessed via https://data.gov.au/dataset/national-public-toilet-map. The variables in the dataset are mostly self-explanatory, but feel free to explore to get a better grip. Please answer the questions below. Make sure you name the Data as indicated below so the script is run-able. Submit the script as a solution. 
+The data to be used for this assignment can be found in the Toilets_AUS.csv. It includes data published by the Australian government's department of health on details of public and private toilet facilities across the country. A selection of the variables (but all the toilets) is included in the dataset. The full dataset can be accessed via https://data.gov.au/dataset/national-public-toilet-map. The variables in the dataset are mostly self-explanatory, but feel free to explore to get a better grip. Please answer the questions below. Make sure you name the Data as indicated below so the script is run-able. Submit the script as a solution. 
 
 Questions:
 1. Load the data in an object named TAUS. What kind of object is the data, and in which format is each variable coded? 
@@ -39,7 +39,7 @@ are in the database)
 
 Introduction:
 
-This assignment is to be done on an individual basis. The scoring will be 0-10, and it will have a weight of 60% of the overall R Labs grade (which counts for 10% of the overall course grade). The data to be used for this assignment can be found in the file Drugs.txt. It includes data published by OECD on pharmaceutical drug spending by countries with indicators such as a share of total health spending, in USD per capita (using economy-wide PPPs) and as a share of GDP. Plus, total spending by
+The data to be used for this assignment can be found in the file Drugs.txt. It includes data published by OECD on pharmaceutical drug spending by countries with indicators such as a share of total health spending, in USD per capita (using economy-wide PPPs) and as a share of GDP. Plus, total spending by
 each countries in the specific year. The variables in the dataset are:
 
 Variable name - Description
