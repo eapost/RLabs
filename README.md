@@ -40,12 +40,13 @@ This assignment is to be done on an individual basis. The scoring will be 0-10, 
 each countries in the specific year. The variables in the dataset are:
 
 Variable name - Description
-LOCATION - Country code
-TIME - Date (Year)
-PC_HEALTHXP - % of Health spending that is spent on pharmaceutical drugs
-PC_GDP - % of GDP
-USD_CAP - in USD per capita (using economy-wide PPPs)
-TOTAL_SPEND - Total spending in millions USD
+
+a. LOCATION - Country code
+b. TIME - Date (Year)
+c. PC_HEALTHXP - % of Health spending that is spent on pharmaceutical drugs
+d. PC_GDP - % of GDP
+e. USD_CAP - in USD per capita (using economy-wide PPPs)
+f. TOTAL_SPEND - Total spending in millions USD
 
 Questions
 1. Load the data in an object named Drugs. You will notice there is an additional variable called FLAG_CODES. Remove this variable from the dataset.
