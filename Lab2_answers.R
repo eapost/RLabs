@@ -3,7 +3,7 @@
 #1st question 
 #Loaded from my local file - please change the path with your local path 
 
-TAUS <- read.csv(file = "/Users/eleftheriaapostolaki/Desktop/Toilets_AUS.csv", 
+TAUS <- read.csv(file = "/Users/XXX/Desktop/Toilets_AUS.csv", 
                  header = TRUE,
                  sep = ",",
                  stringsAsFactors = FALSE)
