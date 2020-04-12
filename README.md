@@ -57,11 +57,7 @@ Questions:
 5. Your client is a multinational pharmaceutical company. They are interested in the probability that Greece (GRC) will increase its drug expenditure in at least 4 of the 5 following consecutive years, in order to assess the investing opportunities. Assume that we are at the year following the last record for Greece. Estimate the probability of drug expenditure increase in any given year by the number of years where the expenditure was higher than the year before (note: this is not an appropriate way of estimating this probability, only use it for this assignment!). (Hint: functions diff() and
 dbinom()). Create a list with the following elements, named accordingly:
 
-  1. $Data The data for Greece
-  2. $Years The range (in years) of available data points for Greece, a vector with two elements, the minimum and maximum years
-  3. $Data.points The number of available data points for Greece
-  4. $YearlyProbs The yearly probabilities of increase in expenditure, in all the four metrics available, thus a vector with 4 elements and names according to the metric
-  5. $FiveYeProbs The requested probabilities for all metrics, thus a vector with 4 elements and names according to the metric
+$Data - The data for Greece, $Years - The range (in years) of available data points for Greece, a vector with two elements, the minimum and maximum years, $Data.points - The number of available data points for Greece, $YearlyProbs - The yearly probabilities of increase in expenditure, in all the four metrics available, thus a vector with 4 elements and names according to the metric, $FiveYeProbs - The requested probabilities for all metrics, thus a vector with 4 elements and names according to the metric
 
 6. Your client asks for a function that can calculate the above probabilities for a variable amount of years and for any country desired. Create a function, that it will take as arguments (and default values):
 
