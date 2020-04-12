@@ -63,9 +63,9 @@ $FiveYeProbs The requested probabilities for all metrics, thus a vector with 4 e
 
 6. Your client asks for a function that can calculate the above probabilities for a variable amount of years and for any country desired. Create a function, that it will take as arguments (and default values):
 
- DATA=NULL Data in the same form as the dataset (without the FLAG_CODES variable)
- METRIC="pc.gdp" The metric in which the required probability needs to be reported. Possible values should be "pc.gdp" (% of GDP), "pc.tot" (% of total health expenditure), "per.ca" (absolute expenditure per capita), and "total" (total absolute spending).
- nofY=5 The number of following consecutive years that the probability needs to be estimated. Every time the probability estimated should be of the form "The probability of increasing drug expenditure in at least nofY-1 out of the following nofY years". 
+a. DATA=NULL Data in the same form as the dataset (without the FLAG_CODES variable)
+b. METRIC="pc.gdp" The metric in which the required probability needs to be reported. Possible values should be "pc.gdp" (% of GDP), "pc.tot" (% of total health expenditure), "per.ca" (absolute expenditure per capita), and "total" (total absolute spending).
+c. nofY=5 The number of following consecutive years that the probability needs to be estimated. Every time the probability estimated should be of the form "The probability of increasing drug expenditure in at least nofY-1 out of the following nofY years". 
 
 The outcome of the function should be a sentence of the form: "Based on (XX) datapoints from years (minYear) to (maxYear), the probability that (countrycode) will increase its drug expenditure, in terms of (metric chosen), in at
 least (nofY-1) years in the period (maxYear+1) to (maxYear+1+nofY) is (estimated probability)".
